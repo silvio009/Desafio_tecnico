@@ -1,8 +1,10 @@
 from django.urls import path
 from blog import views
 
+from django.contrib import admin
+from django.urls import path, include
+
 urlpatterns = [
-    path('', views.post_list, name='post_list'),
-    path('post/<int:post_id>/', views.post_detail, name='post_detail'),
-    path('post/new/', views.post_create, name='post_create'),
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),  
 ]
