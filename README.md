@@ -75,13 +75,12 @@ Aqui estão alguns exemplos de como utilizar a API para interagir com o blog:
 
 ### Criar um Post
 
-- **POST** `/posts/`  
+- **POST**  
   Corpo da requisição:
-  ```json
-  {
-    "title": "Título do Post",
-    "content": "Conteúdo do post."
-  }
+  
+    title": Título do Post,
+    content: Conteúdo do post.
+
 
 ## 📚 Aprendizado
 
