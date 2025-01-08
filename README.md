@@ -22,7 +22,7 @@ Este projeto é um blog simples construído com Django, que permite a criação,
 1. **Clone o Repositório**:
 
     ```bash
-    git clone https://github.com/seuusuario/blog_project.git
+     https://github.com/silvio009/Desafio_tecnico.git
     ```
 
 2. **Navegue até o Diretório do Projeto**:
