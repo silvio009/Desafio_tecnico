@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Post - Blog Scicrop</title>
     <style>
-        /* Estilização geral */
+       
         body {
             font-family: Arial, sans-serif;
-            background-color: #000; /* Fundo preto */
-            color: #fff; /* Texto branco */
+            background-color: #000; 
+            color: #fff; 
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,7 +17,7 @@
             align-items: center;
         }
 
-        /* Estilo do cabeçalho */
+        
         header {
             background-color: #2e7d32;
             width: 100%;
@@ -29,7 +29,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
 
-        /* Estilo do conteúdo */
+        
         main {
             display: flex;
             flex-direction: column;
@@ -39,10 +39,10 @@
             max-width: 800px;
             margin-top: 5vh;
             padding: 2rem;
-            background: white; /* Fundo branco para o conteúdo */
+            background: white; 
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-            color: #333; /* Cor do texto */
+            color: #333; 
         }
 
         main h1 {
@@ -56,7 +56,7 @@
             line-height: 1.6;
         }
 
-        /* Estilo para o formulário */
+       
         form {
             width: 100%;
             max-width: 500px;
@@ -74,7 +74,7 @@
             font-size: 1rem;
         }
 
-        /* Botões */
+       
         .btn-submit {
             padding: 1rem;
             margin-top: 1rem;
@@ -113,8 +113,6 @@
     </header>
     <main>
         <h1>Editar Post</h1>
-
-        <!-- Formulário de edição do post -->
         <form method="POST" action="{% url 'post_edit' post.id %}">
             {% csrf_token %}
             <input type="text" name="title" value="{{ form.title.value }}" class="form-input" placeholder="Título" required>

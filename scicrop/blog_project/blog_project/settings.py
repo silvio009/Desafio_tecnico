@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'blog_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'oracle.fiap.com.br:1521/ORCL',  # Use o service name correto
+        'NAME': 'oracle.fiap.com.br:1521/ORCL',  
         'USER': 'rm550821',
         'PASSWORD': 'fiap23',
     }
