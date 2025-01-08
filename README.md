@@ -71,15 +71,30 @@ Este projeto é um blog simples construído com Django, que permite a criação,
 
 ## 🔍 Exemplo de Uso
 
-Aqui estão alguns exemplos de como utilizar a API para interagir com o blog:
+Aqui estão alguns exemplos de como utilizar o sistema para interagir com o blog:
 
 ### Criar um Post
 
-- **POST**  
-  Corpo da requisição:
-  
-    title": Título do Post,
-    content: Conteúdo do post.
+Para criar um novo post no blog, siga as etapas abaixo:
+
+1. **Acesse a página de criação de post**:  
+   Navegue até a página de criação de post clicando no link "Criar Novo Post" na interface do blog.
+
+2. **Preencha o formulário**:
+   A página de criação de post exibirá um formulário com dois campos principais:
+   - **Título do Post**: Um campo de texto onde você deve inserir o título do seu post.
+   - **Conteúdo do Post**: Um campo de texto onde você deve inserir o conteúdo do seu post.
+
+3. **Enviar o formulário**:  
+   Após preencher o formulário, clique no botão de **"Criar Post"**. O post será salvo e exibido na página inicial do blog, com o título e conteúdo preenchidos.
+
+#### Exemplo de Uso na Página:
+
+- **Título do Post**: "Meu Primeiro Post"
+- **Conteúdo do Post**: "Este é o conteúdo do meu primeiro post no blog."
+
+Após enviar o formulário, você será redirecionado para a página principal do blog, onde o novo post será listado.
+
 
 
 ## 📚 Aprendizado
