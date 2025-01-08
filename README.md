@@ -14,7 +14,7 @@ Este projeto é um blog simples construído com Django, que permite a criação,
 
 - **Django**: Framework web utilizado para desenvolver a API.
 - **Oracle Database**: Banco de dados utilizado para armazenar informações sobre os posts.
-- **Python 3.12.1: Linguagem de programação utilizada.
+- **Python 3.12.1**: Linguagem de programação utilizada.
 - **Pip**: Gerenciador de pacotes do Python para instalação das dependências.
   
 ## 📝 Como Executar
