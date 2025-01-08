@@ -86,3 +86,8 @@ Aqui estão alguns exemplos de como utilizar a API para interagir com o blog:
 ## 📚 Aprendizado
 
 Este projeto foi uma excelente oportunidade para aprender Django, uma framework que eu nunca tinha usado antes. Para conseguir realizar a implementação, assisti aulas da Alura e vídeos no YouTube, que me ajudaram a entender os conceitos principais do Django, como a criação de views, formulários, e como utilizar o banco de dados. Este foi um ótimo passo para aprofundar meus conhecimentos e continuar evoluindo na área de desenvolvimento.
+
+
+##  💻Utilização do Banco Oracle
+![print](https://github.com/user-attachments/assets/7343aa60-1a42-43bd-a050-b9e75772f612)
+
