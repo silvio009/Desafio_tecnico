@@ -8,13 +8,13 @@ Este projeto é um blog simples construído com Django, que permite a criação,
 - **Edição de Posts**: Funcionalidade para editar posts existentes.
 - **Visualização de Posts**: Exibe os detalhes de cada post.
 - **Banco de Dados Oracle**: Integração com banco de dados Oracle para persistência de dados.
-- **Sem Ambiente Virtual**: A aplicação foi configurada para rodar sem a necessidade de um ambiente virtual (venv).
+
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Django**: Framework web utilizado para desenvolver a API.
 - **Oracle Database**: Banco de dados utilizado para armazenar informações sobre os posts.
-- **Python 3.x**: Linguagem de programação utilizada.
+- **Python 3.12.1: Linguagem de programação utilizada.
 - **Pip**: Gerenciador de pacotes do Python para instalação das dependências.
   
 ## 📝 Como Executar
@@ -28,35 +28,26 @@ Este projeto é um blog simples construído com Django, que permite a criação,
 2. **Navegue até o Diretório do Projeto**:
 
     ```bash
+    cd scicrop
     cd blog_project
     ```
 
-3. **Instale as Dependências**:
-
-    Use o `pip` para instalar as dependências listadas no arquivo `requirements.txt`:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Configure o Banco de Dados Oracle**:
+3. **Configure o Banco de Dados Oracle**:
 
     O projeto está configurado para utilizar um banco de dados Oracle. Altere as configurações do banco no arquivo `settings.py` para refletir suas credenciais Oracle:
 
     ```python
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.oracle',
-            'NAME': 'nome_do_banco',
-            'USER': 'seu_usuario',
-            'PASSWORD': 'sua_senha',
-            'HOST': 'oracle.fiap.com.br',
-            'PORT': '1521',
-        }
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': '----------:1521/ORCL',  
+        'USER': '-----',
+        'PASSWORD': '------',
+    }
     }
     ```
 
-5. **Execute as Migrações**:
+4. **Execute as Migrações**:
 
     Para criar as tabelas no banco de dados Oracle, execute o comando de migração:
 
@@ -64,7 +55,7 @@ Este projeto é um blog simples construído com Django, que permite a criação,
     python manage.py migrate
     ```
 
-6. **Execute o Servidor de Desenvolvimento**:
+5. **Execute o Servidor de Desenvolvimento**:
 
     Para rodar o servidor de desenvolvimento localmente, execute o comando abaixo:
 
