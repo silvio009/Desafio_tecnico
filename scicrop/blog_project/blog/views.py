@@ -31,7 +31,7 @@ def edit_post(request, id):
     else:
         form = PostForm(instance=post)
     
-    return render(request, 'blog/edit_post.html', {'form': form, 'post': post})
+    return render(request, 'blog/post_update.html', {'form': form, 'post': post})
 
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Post

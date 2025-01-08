@@ -111,10 +111,8 @@
         
         <!-- Botões de Editar e Excluir -->
         <a href="{% url 'post_edit' post.id %}" class="btn btn-edit">Editar Post</a>
-
-
         <form method="POST" action="{% url 'post_delete' post.id %}" style="display:inline;">
-        {% csrf_token %}
+            {% csrf_token %}
             <button type="submit" class="btn btn-delete" onclick="return confirm('Você tem certeza que deseja excluir este post?');">Excluir Post</button>
         </form>
         
