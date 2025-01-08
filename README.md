@@ -83,6 +83,6 @@ Aqui estão alguns exemplos de como utilizar a API para interagir com o blog:
     "content": "Conteúdo do post."
   }
 
-  ## 📚 Aprendizado
+## 📚 Aprendizado
 
 Este projeto foi uma excelente oportunidade para aprender Django, uma framework que eu nunca tinha usado antes. Para conseguir realizar a implementação, assisti aulas da Alura e vídeos no YouTube, que me ajudaram a entender os conceitos principais do Django, como a criação de views, formulários, e como utilizar o banco de dados. Este foi um ótimo passo para aprofundar meus conhecimentos e continuar evoluindo na área de desenvolvimento.
